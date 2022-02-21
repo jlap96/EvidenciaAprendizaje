@@ -127,7 +127,7 @@ namespace EvidenciaAprendizaje
                     }
                     Console.WriteLine("Ingrese la cantidad a retirar: ");
                     cantidad = float.Parse(Console.ReadLine());  //Se lee la cantidad a retirar
-                    balance = balance - cantidad; //Se resta 
+                    balance = balance - cantidad; //Se resta el retiro a la balance.
                     Console.WriteLine("Nuevo balance: " + balance);
                     Console.WriteLine("Presione 1 para realizar otro deposito, o 0 si desea salir");
                     op = int.Parse(Console.ReadLine());
